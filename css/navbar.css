@@ -1,0 +1,37 @@
+.topnav {
+  overflow: hidden;
+  box-shadow: 0 5px 200px rgba(245, 246, 250,0.7);
+  background-color: #f1f2f6;
+  display: block;
+  position: relative;
+}
+
+.topnav a {
+  display: block;
+  color: #2d3436;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-item {
+	float: right;
+	font-family: 'Playfair Display', serif;
+	padding: 0 20px 0 20px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  color: #2d3436;
+}
+
+.logo {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	margin-left: 100px;
+	float: left;
+	letter-spacing: 3px;
+}
+
+.topnav .icon {
+  display: none;
+}

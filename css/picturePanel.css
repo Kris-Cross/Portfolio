@@ -1,0 +1,48 @@
+.picture-panel::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to bottom, #f1f2f6, transparent);
+	z-index: 3;
+}
+
+.picture-panel {
+	height: 85vh;
+	overflow: hidden;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #b2bec3;
+}
+
+.picture-panel p {
+	text-align: justify;
+	text-transform: uppercase;
+	font-family: 'Rubik', sans-serif;
+	font-size: 200px;
+	line-height: 200px;
+	margin-top: -15px;
+	display: block;
+	color: #dfe6e9;
+	margin-left: -100px;
+	opacity: 0.5;
+	position: absolute;
+	text-shadow: 0 15px 25px rgba(0,0,0,1);
+}
+
+.picture-panel .img-container {
+	border-radius: 50%;
+	position: absolute;
+	margin-top: auto;
+	display: block;
+	bottom: 0;
+	margin-bottom: -78px;
+	height: 390px;
+	width: 390px;
+	overflow: hidden;
+	background-color: rgba(210,218,226,0.9);
+	box-shadow: 0 8px 130px rgba(30, 39, 46,1.0);
+}

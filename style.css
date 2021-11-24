@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Outfit:wght@300&family=Playfair+Display&family=Rubik:wght@500&display=swap');
+
+@import "css/navbar.css";
+
+@import "css/picturePanel.css";
+
+@import "css/aboutMe.css";
+
+@import "css/responsive.css";
+
+@import "css/hover.css";
+
+
+
+
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #ecf0f1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
